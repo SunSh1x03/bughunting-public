@@ -1,0 +1,66 @@
+# ------------------------------------
+# Arquivos sensíveis ou gerados em pentest
+# ------------------------------------
+reports/
+output/
+recon-data/
+nuclei-templates-private/
+ffuf-results/
+tmp/
+*.pcap
+*.pcapng
+*.har
+*.zip
+*.tar
+*.tgz
+*.gz
+*.7z
+
+# ------------------------------------
+# Secrets e ambientes
+# ------------------------------------
+.env
+.secrets/
+*.key
+*.pem
+*.crt
+*.csr
+*token*
+*secret*
+*password*
+
+# ------------------------------------
+# Logs
+# ------------------------------------
+*.log
+*.out
+*.err
+
+# ------------------------------------
+# Cache & virutais
+# ------------------------------------
+__pycache__/
+*.pyc
+.DS_Store
+*~
+.swp
+.swo
+
+# ------------------------------------
+# Node
+# ------------------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ------------------------------------
+# VSCode
+# ------------------------------------
+.vscode/
+.history/
+
+# ------------------------------------
+# GitHub Artifacts
+# ------------------------------------
+*.orig
+

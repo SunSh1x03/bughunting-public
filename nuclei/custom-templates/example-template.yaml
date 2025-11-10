@@ -1,0 +1,19 @@
+# Exemplo comentado (não executa nada perigoso)
+id: example-safe-check
+info:
+  name: Example Safe Check
+  author: SunSh1x03
+  severity: info
+  description: "Exemplo de template seguro e didático"
+  reference:
+    - https://owasp.org/www-project-top-ten/
+  tags: example,education
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/robots.txt"
+    matchers:
+      - type: word
+        words:
+          - "User-agent"
