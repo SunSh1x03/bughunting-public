@@ -9,7 +9,7 @@ Se você identificar qualquer vulnerabilidade de segurança neste repositório, 
 
 Por favor, reporte diretamente via:
 - GitHub Security Advisories  
-- ou contato privado: contact@blacklabel.team
+- ou contato privado: contato@blacklabel.team
 
 Não abra issues públicas contendo informações sensíveis.
 
