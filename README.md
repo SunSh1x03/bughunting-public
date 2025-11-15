@@ -54,6 +54,8 @@ Este repositório é **didático**, não é sua versão real de engagement.
 
 Mapping: **MITRE ATT&CK**, **D3FEND**, **OWASP Top 10**, **NIST**.
 
+
+<img src=assets/owasp-change-2025.png /> 
 ---
 
 ## 🧪 Scripts Didáticos (Bloqueados por Padrão)
